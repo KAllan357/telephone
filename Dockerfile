@@ -1,12 +1,12 @@
-# http://docs.docker.com/reference/builder/
+# See the reference doc - http://docs.docker.com/reference/builder/
 
-# FROM - what is the base image for this Dockerfile?
-# MAINTAINER - who owns this Dockerfile?
+# FROM - what is the base image for this Dockerfile? http://docs.docker.com/reference/builder/#from
+# MAINTAINER - who owns this Dockerfile? http://docs.docker.com/reference/builder/#maintainer
 
-# Install Ruby
+# Install Ruby - perhaps from a package manager? http://docs.docker.com/reference/builder/#run
 
-# Install the 'httparty' gem
+# Install the 'httparty' gem - how do you install gems? http://docs.docker.com/reference/builder/#run
 
-# Add the application
+# ADD the telephone(.rb) application - http://docs.docker.com/reference/builder/#add
 
-# Add a CMD
+# Write a CMD - http://docs.docker.com/reference/builder/#cmd
